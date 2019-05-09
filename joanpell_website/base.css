@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700');
+
+
+body {
+	font-family: "Anonymous Pro";
+  text-align: center;
+  min-height: 100vh;
+
+  background-color: #e6e6e6;
+  color: #4744FF;
+  
+  display: flex;
+	align-items: center;
+  justify-content: space-between;
+	
+  font-weight: bold;	
+  line-height: 36px;
+
+  border-style: solid;
+  border-color: #FA5E47;
+  border-width: 10px;
+
+  height: 100vh;
+
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  /*position: absolute;*/
+  width: 100%;
+  height: 100%;
+}
+
+b{
+  font-size: 25px;
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+.paragraf {
+
+  text-align: left;
+
+  width: 60%;
+  font-weight: 400;
+}
+
+h1 {
+  /* width: 50%; */
+  text-align: center;
+  font-size: 15px; 
+  margin-bottom: 40px;
+
+  font-weight: 200;
+}
+
+
+h2 {
+  /* width: 50%; */
+  text-align: center;
+  font-size: 9vw; 
+  margin-bottom: 40px;
+
+  font-weight: 700;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover { 
+  text-decoration: underline; 
+  }
+
+.enllaç-dreta{
+  transform: rotate(90deg);
+  text-decoration: none;
+  margin-right: none;
+}
+
+.enllaç-esquerra{
+  transform: rotate(-90deg);
+  text-decoration: none;
+  margin-left: none;
+  
+}
